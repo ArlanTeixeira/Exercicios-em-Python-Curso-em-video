@@ -1,0 +1,5 @@
+k = float(input('Quantos Km o cliente percorreu com o carro: '))
+d = int(input('Quanto dias o cliente ficou com o carro: '))
+t = (k * 0.15) + (d * 60)
+print('O cliente ficou {} dias com o carro e rodou {}km'.format(d, k))
+print('O valor total a ser pago é de: {}'.format(t))
